@@ -45,10 +45,10 @@ function addNew() {
   tableBody.appendChild(newRow); //display my new row with populated <td> tags
 
   // Resetting my values on my form to nil
-  name = document.getElementById("name").value = '';
-  address = document.getElementById("address").value = '';
-  phone = document.getElementById("phone").value = '';
-  bookings = document.getElementById("bookings").value = '';
-  employee_number = document.getElementById("employee_number").value = '';
+  document.getElementById("name").value = '';
+  document.getElementById("address").value = '';
+  document.getElementById("phone").value = '';
+  document.getElementById("bookings").value = '';
+  document.getElementById("employee_number").value = '';
   
 }
